@@ -1,0 +1,44 @@
+{
+  "name": "jobs-ejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "run": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikitaBud/jobs-ejs.git"
+  },
+  "author": "Nikita Budiakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikitaBud/jobs-ejs/issues"
+  },
+  "homepage": "https://github.com/NikitaBud/jobs-ejs#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^5.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-async-errors": "^3.1.1",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "helmet": "^8.1.0",
+    "host-csrf": "^1.0.2",
+    "mongoose": "^8.15.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^9.28.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3"
+  }
+}
